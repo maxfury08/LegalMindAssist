@@ -25,7 +25,7 @@ const Chat = () => {
     
   return (
     <div>
-        <div className="flex justify-center items-center min-h-screen bg-gray-900">
+        <div className="flex justify-center items-center min-h-screen bg-black">
           <div className="w-full max-w-xl bg-black text-white rounded-xl p-4 shadow-lg">
             <ChatBody messages={messages} sendMessage={sendMessage} />
           </div>

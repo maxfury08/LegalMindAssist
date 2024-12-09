@@ -10,11 +10,11 @@ import Footer from '../Components/Footer'
 
 const LandingPage = () => {
   return (
-    <div className='bg-black font-poppins'>
+    <div className=' bg-black font-poppins'>
         <Navbar/>
         <Hero/>
-        <Features/>
         <About/>
+        <Features/>
         <LegalServices/>
         <Testimonials/>
         <Contact/>

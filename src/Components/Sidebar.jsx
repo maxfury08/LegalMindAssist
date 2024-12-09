@@ -4,7 +4,7 @@ import { IoMenu } from "react-icons/io5";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
-    <div className="bg-gray-800 pb-12 rounded-lg border-2 border-white">
+    <div className="bg-black pb-12 rounded-lg border-2 border-white">
        <div className=' mt-6 flex justify-end p-5'>
          <IoMenu onClick={toggleSidebar} className='text-white text-4xl'/>
        </div>

@@ -15,7 +15,7 @@ function Navbar() {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 px-8 md:px-16 mb-6 py-3 mx-auto">
+    <div className=" sticky top-1 bg-black opacity-90 flex justify-between items-center h-20 px-8 md:px-16 mb-6 py-3 mx-auto">
       <div className="text-2xl font-bold text-white">Legal Mind Assist</div>
 
       <ul className="flex gap-6 md:gap-8 text-lg">

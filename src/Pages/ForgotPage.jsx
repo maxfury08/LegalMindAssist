@@ -6,6 +6,7 @@ const ForgotPage = () => {
     const navigate =useNavigate();
   return (
     <div class="font-poppins min-h-screen bg-black">
+      <Navbar/>
       <div class="min-h-screen flex fle-col items-center justify-center py-6 px-4">
         <div class="grid md:grid-cols-2 items-center gap-4 max-w-6xl w-full">
         <div class=" max-md:mt-8">

@@ -27,16 +27,12 @@ const Hero = () => {
                 Get Started
                 <FaAngleRight className="text-black text-2xl" />
               </button>
-              <button className=" flex items-center gap-3 py-3 px-6 rounded-full  text-gray-400 font-semibold text-sm md:text-lg">
-                Documentation
-                <FaAngleRight className=" text-2xl" />
-              </button>
             </div>
           </div>
           <img
             src={HeroImage}
             alt="/"
-            className="mx-auto w-auto md:h-[580px]  "
+            className="mx-auto w-auto "
           ></img>
         </div>
       </div>

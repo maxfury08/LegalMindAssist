@@ -21,10 +21,6 @@ const Contact = () => {
           Try for free
           <FaAngleRight className="text-black text-2xl" />
         </button>
-        <button className=" flex items-center gap-3 py-2 px-6 rounded-full  text-gray-400 font-semibold text-sm md:text-lg">
-          Request a Demo
-          <FaAngleRight className=" text-2xl" />
-        </button>
       </div>
       </div>
     </div>

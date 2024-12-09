@@ -76,6 +76,7 @@ const SignUpPage = () => {
 
   return (
     <div className="font-poppins min-h-screen bg-black">
+      <Navbar/>
       <div className="min-h-screen flex flex-col items-center justify-center py-6 px-4">
         <div className="grid md:grid-cols-2 items-center gap-4 max-w-6xl w-full">
           <div className="max-md:mt-8">
